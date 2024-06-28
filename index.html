@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equi="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shraddha Chandane Portfolio</title>
+    <link rel ="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1> <Span>S</Span>hraddha</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick= "openmenu()"></i>
+                </nav>
+<div class="header-text">
+    <p> Web Developer / Front End Developer</p>
+    <h1>Hi, I'm <span> Shraddha </span> <br>I believe in continuous learning and staying updated with the latest technologies. </h1>
+
+</div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, my name is Shraddha Chandane. I recently post graduated from Shivaji University with a degree Computer Applicatons. I completed an internship at ACITE and certification through IBM, where I gained hands-on experience in web development.
+                    I have strong programming skills in Java, PHP, and JavaScript, and I am proficient in using development frameworks like React and Node.js.
+
+                     I am highly motivated, a quick learner, and I enjoy working in collaborative environments.                  
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('extracurricular-activites')">Extracurricular-Activites</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Development</span><br>Proficiency in HTML, CSS, JavaScript
+                                </li>
+                                <li><span>Backend Development</span><br>Knowledgge of laguages like PHP,JAVA.<br> Familiarity with databases like MySQL. </li>
+                                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="extracurricular-activites">
+                            <ul>
+                                <li><span>Internship</span> <br>Internship from ACITE</li>
+                                <li><span>Certification </span><br>Certification in Web Development through IBM </li>
+                                <li><span>Workshops and Seminars</span><br>Attend the workshop related to technologies </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>MCA from Shivaji University
+                                </li>
+                                <li><span>2022</span><br>BCA from Solapur University </li>
+                                <li><span>2019</span><br>HSC from Maharashtra Board</li>
+                                <li><span>2017</span><br>SSC from Maharashtra Board</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<div id="projects">
+    <div class="container"></div>
+    <h1 class="sub-title">My Services</h1>
+    <div class="projects-list">
+<div>
+    <i class="fa-brands fa-web-awesome"></i>
+    <h2>Web Application Development</h2>
+    <p>Building scalable and responsive web applications from scratch using front-end (HTML, CSS, JavaScript) and back-end technologies (Node.js, Java,PHP etc.). </p>
+</div>
+<div> 
+    <i class="fa-solid fa-database"></i>
+    <h2>Database Design and Integration</h2>
+    <p>Designing and implementing database schemas, using relational databases (e.g., MySQL, SQL) or NoSQL databases (e.g., MongoDB), and integrating them into your applications.
+    </p>
+</div>
+<div>
+    <i class="fa-solid fa-code-compare"></i>
+    <h2>Responsive Front-End Design</h2>
+    <p>
+        Developing intuitive and user-friendly interfaces using modern front-end frameworks/libraries (e.g., React, Angular) and ensuring cross-browser compatibility and responsiveness.
+    </p>
+</div>
+
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <i class="fa-solid fa-wheat-awn"></i>
+                <h3>Agri_Advisor</h3>
+                <p>This project is build using HTML,CSS,JavaScript and PHP. In this project we provide the advice and support to farmers on the basis of the weather, crop type, soil type.We also recommend the fertilizers for their soil.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        
+            <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <i class="fa-solid fa-crop"></i>
+                <h3>Agro_Marketing</h3>
+                <p>This projects is build in HTML,CSS, JavaScript and PHP. In this project we give the online platform for farmers to buy and sell their products.This modern approach aims to streamline the agriculture supply chain, connect farmers with a broader customer base.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        
+            <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <i class="fa-solid fa-file"></i>
+                <h3>Resume Builder</h3>
+                <p>User-friendly online platform that assists job seeker in creating professionl resumes.In ths project user are able to select the differnt template as he want, also user are successfully downloaded their resume/cv in many format like pdf,word etc.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <i class="fa-solid fa-music"></i>
+                <h3>Music Application</h3>
+                <p> User are able to create their own account and maintain the list of their favorites song. The project seeks to enhance user engagement, promote emerging artists, and create a dynamic community around music discovery and enjoyment.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>chandane.shraddha08@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+919881483296</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf"download class ="btn btn2">Download CV</a>
+
+
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div class="copyright">
+        <p>&copy; 2024 Shraddha Chandane. Made with <i class="fas fa-heart"></i> All rights reserved. </p>
+    </div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+    </body>
